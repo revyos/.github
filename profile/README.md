@@ -16,7 +16,7 @@ The user version images of __RevyOS__ are currently updated on the ISCAS (Instit
 
 | Supported Devices | Image Download (Latest Version) | Flashing Tutorial | SD Card Support |
 | --- | --- | --- | --- |
-| Lichee Pi 4A | [202401229](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20241229/) | [Flashing Image](https://github.com/revyos/revyos/blob/main/Installation/licheepi4a.md) | Supported |
+| Lichee Pi 4A | [20241229](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20241229/) | [Flashing Image](https://github.com/revyos/revyos/blob/main/Installation/licheepi4a.md) | Supported |
 | LicheePi Cluster 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/) | [Flashing Image](./Installation/licheepi4a.md)  |  |
 | LicheeConsole 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lcon4a/20240720/) | [Flashing Image](./Image%20flashing/licheeconsole4a.md)  |  |
 | Lichee Book 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/laptop4a/) | [Flashing Image](./Image%20flashing/licheebook.md)  |  |
