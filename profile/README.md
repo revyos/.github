@@ -1,6 +1,6 @@
 # RevyOS
 
-[简体中文](https://github.com/revyos/revyos/blob/main/README.cn.md)
+[简体中文](https://github.com/revyos/revyos/blob/main/./README.cn.md)
 
 ## Introduction
 
@@ -19,9 +19,9 @@ The user version images of __RevyOS__ are currently updated on the ISCAS (Instit
 | Supported Devices | Image Download (Latest Version) | Flashing Tutorial | SD Card Support |
 | --- | --- | --- | --- |
 | Lichee Pi 4A | [20250123](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20250123/) | [Flashing Image](https://docs.revyos.dev/en/Installation/licheepi4a/) | Supported |
-| LicheePi Cluster 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20240720/) | [Flashing Image](https://github.com/revyos/revyos/blob/main/Installation/licheepi4a.md)  |  |
-| LicheeConsole 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lcon4a/20240720/) | [Flashing Image](https://github.com/revyos/revyos/blob/main/Image%20flashing/licheeconsole4a.md)  |  |
-| Lichee Book 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/laptop4a/20240720/) | [Flashing Image](https://github.com/revyos/revyos/blob/main/Image%20flashing/licheebook.md)  |  |
+| LicheePi Cluster 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20240720/) | [Flashing Image](https://github.com/revyos/revyos/blob/main/./Installation/licheepi4a.md)  |  |
+| LicheeConsole 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lcon4a/20240720/) | [Flashing Image](https://github.com/revyos/revyos/blob/main/./Image%20flashing/licheeconsole4a.md)  |  |
+| Lichee Book 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/laptop4a/20240720/) | [Flashing Image](https://github.com/revyos/revyos/blob/main/./Image%20flashing/licheebook.md)  |  |
 | Milk-V Pioneer | [20241230](https://mirror.iscas.ac.cn/revyos/extra/images/sg2042/20241230/) | [Flashing Image](https://docs.revyos.dev/en/Installation/milkv-pioneer/)  | Supported |
 | Milk-V Meles | [20250123](https://mirror.iscas.ac.cn/revyos/extra/images/meles/20250123/) | [Flashing Image](https://milkv.io/zh/docs/meles/installation)  | Supported |
 | Beagle-Ahead | [20231210](https://mirror.iscas.ac.cn/revyos/extra/images/beagle/20231210/) | In Progress  |  |
