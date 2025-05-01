@@ -1,58 +1,54 @@
 # RevyOS
 
-## Introduction
+[English](https://github.com/revyos/docs/blob/master/docs/./index.en.md)
 
-[RevyOS](https://github.com/revyos)  is a custom Debian distribution optimized for the XuanTie chip ecosystem, supported and developed by the RevyOS team from the [Ruyi SDK](https://github.com/ruyisdk) team.
+## 简介
 
-RevyOS provides comprehensive adaptation and optimization support for chips such as c906fdv, c910v, and c908. By default, it integrates support for the RVV 1.0 and XThead GCC toolchains. Furthermore, it is equipped with glibc and kernel optimized for the RVV 1.0 instruction set.
+[RevyOS](https://github.com/orgs/revyos/repositories)是由 RuyiSDK 团队的 RevyOS 小队支持开发的一款针对 XuanTie 生态芯片的 Debian 优化定制发行版。
 
-Currently, RevyOS meets basic user needs in areas like office tasks, web browsing, and video playback.
+RevyOS 是 [RuyiSDK](https://ruyisdk.org/) 的一部分。RuyiSDK 是一个由 [PLCT Lab](https://plctlab.org/en/) 所启动的开源项目，该项目旨在为 RISC-V 开发者提供一个便捷、完善的开发环境，其提供了相关最新的硬件信息、软件支持，例如在支持的设备中有提供相关支持硬件情况；软件层面提供了镜像（如 RevyOS）、工具链、包管理器等。
 
-Thanks to its customizations and optimizations, RevyOS offers superior performance and an excellent experience on hardware platforms like Lichee RV and Lichee Pi 4A.
+__RevyOS__ 围绕玄铁 C906、C910、C920、C908 等芯片提供了完整而全面的适配和优化支持，默认集成支持玄铁扩展指令集和 RVV 1.0 的 GCC 工具链，并搭载使用 RVV 1.0 指令集优化过的 Glibc 和 Kernel。
 
-## Image Download and Flashing
+目前，__RevyOS__ 在办公、网页浏览、观看视频等方面已经能满足用户的基本使用需求。
 
-The user version images of __RevyOS__ are currently updated on the ISCAS (Institute of Software, Chinese Academy of Sciences) open-source mirror. To obtain the latest version of __RevyOS__, visit the [image download](https://mirror.iscas.ac.cn/revyos/extra/images/) directory and choose the corresponding image based on your device.
+基于上述定制和优化的 __RevyOS__，在 Milk-V Meles，LicheePi 4A 等硬件平台上，能够提供优秀的性能和极佳的体验。
 
-| Supported Devices | Image Download (Latest Version) | Flashing Tutorial | SD Card Support |
-| --- | --- | --- | --- |
-| Lichee Pi 4A | [20241229](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20241229/) | [Flashing Image](https://github.com/revyos/revyos/blob/main/Installation/licheepi4a.md) | Supported |
-| LicheePi Cluster 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/) | [Flashing Image](./Installation/licheepi4a.md)  |  |
-| LicheeConsole 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lcon4a/20240720/) | [Flashing Image](./Image%20flashing/licheeconsole4a.md)  |  |
-| Lichee Book 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/laptop4a/) | [Flashing Image](./Image%20flashing/licheebook.md)  |  |
-| Milk-V Pioneer | [20241230](https://mirror.iscas.ac.cn/revyos/extra/images/sg2042/20241230/) | [Flashing Image](https://docs.revyos.dev/Installation/milkv-pioneer/)  | Supported |
-| Milk-V Meles | [20241229](https://mirror.iscas.ac.cn/revyos/extra/images/meles/20241229/) | [Flashing Image](https://milkv.io/zh/docs/meles/installation)  | Supported |
-| Beagle-Ahead | [20231210](https://mirror.iscas.ac.cn/revyos/extra/images/beagle/20231210/) | [Flashing Image]()  |  |
-| Huiwei book | [20240617](https://mirror.iscas.ac.cn/revyos/extra/images/huiwei/test/20240617/) | [Flashing Image]()  |  |
+## 镜像下载
 
-## Updates and Announcements
+__RevyOS__ 的用户版镜像目前在 ISCAS（中国科学院软件研究所）开源镜像站进行更新。如您想获取 __RevyOS__ 最新版镜像请访问[镜像下载](https://mirror.iscas.ac.cn/revyos/extra/images/)目录，根据所使用设备来获取对应镜像。在下载完成后，请点击[镜像刷写](https://github.com/revyos/docs/blob/master/docs/./Installation/install.md)获取对应设备的镜像刷写教程。
 
-After an image version update, we will announce the features and changes supported by the current version. If you wish to view the contents supported by the image, click on [RevyOS Version ChangeLog](https://github.com/ruyisdk/revyos/tree/main/Change%20Log) and select the version you're interested in.
+| 支持设备          | 镜像下载（最新版本）                                                             |  SD 卡支持 |
+| ----------------- | -------------------------------------------------------------------------------- | --------- |
+| Lichee Pi 4A      | [20250123](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20250123/)       | 支持       |
+| Milk-V Meles      | [20250123](https://mirror.iscas.ac.cn/revyos/extra/images/meles/20250123/)       | 支持       |
+| Milk-V Pioneer    | [20241230](https://mirror.iscas.ac.cn/revyos/extra/images/sg2042/20241230/)      | 支持       |
+| Lichee Cluster 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/)                |           |
+| Lichee Console 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lcon4a/20240720/)      |           |
+| Lichee Book 4A    | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/laptop4a/)             |           |
+| Beagle-Ahead      | [20231210](https://mirror.iscas.ac.cn/revyos/extra/images/beagle/20231210/)      |           |
+| Huiwei book       | [20240617](https://mirror.iscas.ac.cn/revyos/extra/images/huiwei/test/20240617/) |           |
 
-## Issues
+### 如何启用 T-Head 优化 GCC
 
-If you encounter any issues while using the system, you can [submit an issue](https://github.com/revyos/revyos/issues).
+详见这篇文档[如何启用优化 GCC](https://github.com/revyos/docs/blob/master/docs/build/debian/enable_optimization_gcc.md)
 
-## User Documentation
+## 更新日志
 
-In this repository, we offer various user guides, including documentation on system building, adaptation, and testing. This comprehensive documentation helps users get acquainted with the system more quickly.
+镜像版本更新后我们会公布当前版本镜像支持内容，如您想查看镜像支持内容请点击[RevyOS 版本更新日志](https://github.com/revyos/docs/blob/master/docs/./changelog/changelog-index.md)后选择您所需要的版本进行查看。
 
-For compile and build documentation: [Click here](https://github.com/ruyisdk/revyos/tree/main/Build)
+## issue 相关
 
-For adaptation-related documentation: [Click here](https://github.com/ruyisdk/revyos/tree/main/Adaptation)
+如果您在使用过程中遇到问题，可以进行[issue 申报](https://github.com/revyos/docs/blob/master/docs/./issue.md)。
 
-For testing-related documentation: [Click here](https://github.com/ruyisdk/revyos/tree/main/Test).
+## 用户文档
 
-For 玄铁曳影1520芯片原型用户手册_CN：[Click here](https://www.xrvm.cn/community/download?id=4344198194863869952)
+在本 DOCS 中，我们拥有相关的使用构建与适配文档以及测试文档方便让用户对部分内容进行参考，完善的文档支持加快了用户对于系统的上手时间。
 
-For TH1520 User Manual_EN：[Click here](https://occ-intl-prod.oss-ap-southeast-1.aliyuncs.com/resource//1698839996662/TH1520%20User%20Manual%20(1).zip)
+## 用户群组
 
-For TH1520 Specifications V1.03: [Click here](https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource/889768/1698042403122/%E6%9B%B3%E5%BD%B11520%E8%A7%84%E6%A0%BC%E4%B9%A6V1.03.pdf)
+RevyOS 有自己的 Telegram 群组：[邀请链接](https://t.me/+Pi6px22-OsUxM2M1)
 
-## User Group
+## 实习生招聘
 
-RevyOS has its own Telegram group: [Invitation Link](https://t.me/+Pi6px22-OsUxM2M1)
-
-## Intern Recruitment
-
-We are currently recruiting testing interns. For more details, please refer to: [RevyOS Testing Intern Recruitment](https://github.com/plctlab/weloveinterns/blob/master/open-internships.md#j143-revyos%E5%B0%8F%E9%98%9F%E6%B5%8B%E8%AF%95%E5%AE%9E%E4%B9%A0%E7%94%9F20241111%E5%BC%80%E6%94%BE100%E5%90%8D)
+现在正在招聘测试实习生，详情请看：[RevyOS 小队测试实习生招聘](https://github.com/plctlab/weloveinterns/blob/master/open-internships.md#j143-revyos%E5%B0%8F%E9%98%9F%E6%B5%8B%E8%AF%95%E5%AE%9E%E4%B9%A0%E7%94%9F20241111%E5%BC%80%E6%94%BE100%E5%90%8D)
