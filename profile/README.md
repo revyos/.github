@@ -16,18 +16,20 @@ The user version images of __RevyOS__ are currently updated on the ISCAS (Instit
 
 | Supported Devices | Image Download (Latest Version) | Flashing Tutorial | SD Card Support |
 | --- | --- | --- | --- |
-| Lichee Pi 4A | [20241229](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20241229/) | [Flashing Image](https://github.com/revyos/revyos/blob/main/Installation/licheepi4a.md) | Supported |
-| LicheePi Cluster 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/) | [Flashing Image](./Installation/licheepi4a.md)  |  |
-| LicheeConsole 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/lcon4a/20240720/) | [Flashing Image](./Image%20flashing/licheeconsole4a.md)  |  |
-| Lichee Book 4A | [20240720](https://mirror.iscas.ac.cn/revyos/extra/images/laptop4a/) | [Flashing Image](./Image%20flashing/licheebook.md)  |  |
-| Milk-V Pioneer | [20241230](https://mirror.iscas.ac.cn/revyos/extra/images/sg2042/20241230/) | [Flashing Image](https://docs.revyos.dev/Installation/milkv-pioneer/)  | Supported |
-| Milk-V Meles | [20241229](https://mirror.iscas.ac.cn/revyos/extra/images/meles/20241229/) | [Flashing Image](https://milkv.io/zh/docs/meles/installation)  | Supported |
-| Beagle-Ahead | [20231210](https://mirror.iscas.ac.cn/revyos/extra/images/beagle/20231210/) | [Flashing Image]()  |  |
-| Huiwei book | [20240617](https://mirror.iscas.ac.cn/revyos/extra/images/huiwei/test/20240617/) | [Flashing Image]()  |  |
+| Lichee Pi 4A | [20250930](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20250930/) | [Flashing Image](https://docs.revyos.dev/en/docs/Installation/licheepi4a/) | Supported |
+| Milk-V Meles | [20250930](https://mirror.iscas.ac.cn/revyos/extra/images/meles/20250930/) | [Flashing Image](https://docs.revyos.dev/en/docs/Installation/milkv-meles/)  | Supported |
+| Lichee Cluster 4A | [20250930](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20250930/) | [Flashing Image](./Installation/licheepi4a.md)  | Supported |
+| Lichee Console 4A | [20250930](https://mirror.iscas.ac.cn/revyos/extra/images/lcon4a/20250930/) | [Flashing Image](./Image%20flashing/licheeconsole4a.md)  | Supported |
+| Lichee Book 4A | [20250930](https://mirror.iscas.ac.cn/revyos/extra/images/laptop4a/20250930/) | [Flashing Image](./Image%20flashing/licheebook.md)  | Supported |
+| Milk-V Pioneer / Sophgo EVB V1/V2  | [20250930](https://mirror.iscas.ac.cn/revyos/extra/images/sg2042/20250930/) | [Flashing Image](https://docs.revyos.dev/en/docs/Installation/milkv-pioneer/)  | Supported |
+| Sophgo SG2044 SRD3 | [20250930](https://mirror.iscas.ac.cn/revyos/extra/images/sg2044/20250930/) | In Progress  |  |
+| Sophgo Pisces | [20250930](https://mirror.iscas.ac.cn/revyos/extra/images/sg2042/20250930/) | In Progress  |  |
+| Beagle Ahead | [20231210](https://mirror.iscas.ac.cn/revyos/extra/images/beagle/20231210/) | In Progress  |  |
+| Huiwei book | [20240617](https://mirror.iscas.ac.cn/revyos/extra/images/huiwei/test/20240617/) | In Progress  |  |
 
 ## Updates and Announcements
 
-After an image version update, we will announce the features and changes supported by the current version. If you wish to view the contents supported by the image, click on [RevyOS Version ChangeLog](https://github.com/ruyisdk/revyos/tree/main/Change%20Log) and select the version you're interested in.
+After an image version update, we will announce the features and changes supported by the current version. If you wish to view the contents supported by the image, click on [RevyOS Version ChangeLog](https://docs.revyos.dev/en/changelog/changelog-index/) and select the version you're interested in.
 
 ## Issues
 
@@ -37,11 +39,7 @@ If you encounter any issues while using the system, you can [submit an issue](ht
 
 In this repository, we offer various user guides, including documentation on system building, adaptation, and testing. This comprehensive documentation helps users get acquainted with the system more quickly.
 
-For compile and build documentation: [Click here](https://github.com/ruyisdk/revyos/tree/main/Build)
-
-For adaptation-related documentation: [Click here](https://github.com/ruyisdk/revyos/tree/main/Adaptation)
-
-For testing-related documentation: [Click here](https://github.com/ruyisdk/revyos/tree/main/Test).
+For RevyOS Documentation: [Click here](https://docs.revyos.dev/en/)
 
 For 玄铁曳影1520芯片原型用户手册_CN：[Click here](https://www.xrvm.cn/community/download?id=4344198194863869952)
 
